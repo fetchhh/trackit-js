@@ -1,0 +1,47 @@
+{
+    "en": {
+        "addFriend": "Add to friends",
+        "found": "Names found:",
+        "noChanges": "No recent changes",
+        "hidden": "Hidden",
+        "notFound": "Not found",
+        "error": "Error",
+        "subscribe": "Hide my name"
+    },
+    "ru": {
+        "addFriend": "Добавить в друзья",
+        "found": "Имён найдено:",
+        "noChanges": "Нет недавних изменений",
+        "hidden": "Скрытый никнейм",
+        "notFound": "Ник не найден",
+        "error": "Ошибка",
+        "subscribe": "Скрыть мое имя"
+    },
+    "fr": {
+        "addFriend": "Ajouter à la liste d'amis",
+        "found": "Noms trouvés :",
+        "noChanges": "Aucun changement récent",
+        "hidden": "Masqué",
+        "notFound": "Non trouvé",
+        "error": "Erreur",
+        "subscribe": "Masquer mon nom"
+    },
+    "de": {
+        "addFriend": "Zur Freundesliste hinzufügen",
+        "found": "Namen gefunden:",
+        "noChanges": "Keine aktuellen Änderungen",
+        "hidden": "Versteckt",
+        "notFound": "Nicht gefunden",
+        "error": "Fehler",
+        "subscribe": "Meinen Namen verbergen"
+    },
+    "pt": {
+        "addFriend": "Adicionar a amigos",
+        "found": "Apelidos encontrados:",
+        "noChanges": "Sem mudanças recentes",
+        "hidden": "Oculto",
+        "notFound": "Não encontrado",
+        "error": "Erro",
+        "subscribe": "Esconder meu nome"
+    }
+}

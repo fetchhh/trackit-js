@@ -1,0 +1,134 @@
+ .loader {
+     display: flex;
+     align-items: center;
+     margin-left: 1.9em;
+}
+ .loader svg {
+     animation: rotate 0.7s linear infinite;
+}
+ @keyframes rotate {
+     from {
+         transform: rotate(0deg);
+    }
+     to {
+         transform: rotate(360deg);
+    }
+}
+ .ContextMenuStyle-menu {
+     overflow: hidden;
+     width: 18em;
+}
+ .row-content {
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     align-items: unset;
+     background-color: rgb(25 48 60 / 20%);
+}
+ .row-content.found {
+     flex-direction: column;
+     height: auto;
+     max-height: calc(2.563em - 10px);
+     will-change: max-height;
+     overflow: hidden;
+     padding-top: 10px;
+     transition: max-height 0.3s cubic-bezier(0.215, 0.610, 0.355, 1.000) !important;
+}
+ .row-content.subscribe {
+     background-color: rgb(255 187 0 / 15%);
+}
+ .row-content.subscribe:hover {
+     background-color: rgb(255 187 0 / 30%);
+}
+ .subscribe-text {
+     display: flex;
+     align-items: center;
+}
+ .subscribe-text a {
+     color: rgb(255 187 0)!important;
+}
+ .subscribe-indicator {
+     display: flex;
+     flex-grow: 1;
+     justify-content: right;
+     align-items: flex-start;
+     margin: 0.5em 0.5em 0 0;
+}
+ .row-content.found:hover {
+     max-height: 10em !important;
+}
+ .row-content.hidden {
+     border-left: 2px solid rgb(255 0 51);
+     background-color: rgb(74 10 30);
+}
+ .row-indicator {
+     display: none;
+     align-items: center;
+     color: rgb(255 255 255 / 60%) !important;
+}
+ .row-indicator.hidden {
+     color: rgb(255 255 255)!important;
+     margin: 0!important;
+}
+ .hidden-indicator {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 0 10px 0 10px;
+}
+ .crown-indicator {
+     display: none;
+     justify-content: right;
+     align-items: center;
+     flex-grow: 1;
+     margin-right: 0.7em;
+}
+ .nicknames-container {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 4px;
+     margin: 0.625em 0.25em 0 2.125em;
+     padding-bottom: 15px;
+     overflow: hidden;
+     scrollbar-gutter: stable;
+}
+ .nicknames-container::-webkit-scrollbar {
+     width: 6px;
+}
+ .nicknames-container::-webkit-scrollbar-thumb {
+     border-radius: 10px;
+     background-color: rgb(255 255 255 / 30%);
+}
+ .nicknames-container::-webkit-scrollbar-track {
+     margin-bottom: 15px;
+     border-radius: 10px;
+     background: rgb(255 255 255 / 10%);
+}
+ .nickname {
+     margin-bottom: 4px;
+     padding: 3px 8px;
+     color: rgb(255 255 255);
+     border-radius: 22px;
+     background-color: rgb(255 255 255 / 15%);
+     transition: background-color 0.5s ease;
+}
+ .nickname:hover {
+     background-color: rgb(255 255 255 / 30%);
+}
+ .row-overlay {
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+     height: 18px;
+     background: linear-gradient(180deg, rgba(13, 36, 49, 0) 0%, #0d2431 100%);
+     padding-bottom: 4px;
+}
+ .overlay {
+     width: 24px;
+     height: 3px;
+     border-radius: 18px;
+     background-color: rgb(255 255 255);
+}
