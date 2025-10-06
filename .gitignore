@@ -1,9 +1,9 @@
-# Ignore node_modules folder
+# Modules
 node_modules/
-# Ignore environment variables
+# Environment variables
 .env
-# Ignore package-lock
+# Package-lock
 package-lock.json
-# Ignore obfuscated and bundled code
+# Obfuscated and bundled code
 dist/bundle.js
 dist/obfuscated/output.js
